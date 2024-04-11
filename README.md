@@ -27,7 +27,7 @@ Be sure you have all the jQuery and JS files setup and included in the HTML prop
 
 3. Check that the **cookie-banner.js** is added **after** the jQuery on **every** page.
 
-     `<script src="scripts/jquery-3.7.1.js"></script>`
+     `<script src="scripts/jquery-3.7.1.js"></script>`<br>
      `<script src="scripts/cookie-banner.js"></script>`
 
 
@@ -64,7 +64,7 @@ The thumbnail image gallery is on the **popular.html** page.
 
 3. Check that the **gallery.js** is added **after** the jQuery on **popular.html** page.
 
-     `<script src="scripts/jquery-3.7.1.js"></script>`
+     `<script src="scripts/jquery-3.7.1.js"></script>`<br>
      `<script src="scripts/gallery.js"></script>`
 
 4. Code the interactivity for the thumbnail image gallery using these snippets:
