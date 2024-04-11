@@ -39,7 +39,7 @@ Be sure you have all the jQuery and JS files setup and included in the HTML prop
 
     Listen/Respond to Events on an Element - 
 
-        $("TODO: CSS Selector").click(function() {
+        $("TODO: Selector").click(function() {
         
             /* TODO: JavaScript+jQuery code to respond to "click" event */
         
@@ -75,7 +75,7 @@ The thumbnail image gallery is on the **popular.html** page.
 
     Listen/Respond to Events on an Element - 
 
-        $("TODO: CSS Selector").click(function() {
+        $("TODO: Selector").click(function() {
         
             /* TODO: JavaScript+jQuery code to respond to "click" event */
         
