@@ -2,7 +2,7 @@
 
 ## Practice with Snippets Notes
 
-Here are notes to help coding and troubleshooting the cookie banner and thumbnail gallery 
+Here are notes to help coding and troubleshooting the cookie banner and thumbnail gallery. 
 
 ### Snippets
 
@@ -12,7 +12,7 @@ Here are notes to help coding and troubleshooting the cookie banner and thumbnai
 
 Be sure you have all the jQuery and JS files setup and included in the HTML properly.
 
-1.  Check that the jquery .js file at the bottom of all the HTML pages - this is already in your scripts sub-directory:
+1.  Check that the **jquery-3.7.1.js** file at the bottom of all the HTML pages - and is the **first** .js file listed:
    
      `<script src="scripts/jquery-3.7.1.js"></script>`
 
@@ -25,8 +25,9 @@ Be sure you have all the jQuery and JS files setup and included in the HTML prop
    HTML:  note the ID's and classes used<br>
    CSS:  note the .banner classes created
 
-3. Check that the cookie-banner.js is added below the jQuery on **every** page.
+3. Check that the **cookie-banner.js** is added **after** the jQuery on **every** page.
 
+     `<script src="scripts/jquery-3.7.1.js"></script>`
      `<script src="scripts/cookie-banner.js"></script>`
 
 
@@ -34,7 +35,7 @@ Be sure you have all the jQuery and JS files setup and included in the HTML prop
 
     Console Messages - 
 
-        `console.log("TODO: Add informative debugging message")"`
+        console.log("TODO: Add informative debugging message");
 
     Listen/Respond to Events on an Element - 
 
@@ -61,15 +62,16 @@ The thumbnail image gallery is on the **popular.html** page.
    HTML:  note the ID's and classes used<br>
    CSS:  note the .thumbnail-gallery classes created
 
-3. Check that the **gallery.js** is added below the jQuery on **popular.html** page.
+3. Check that the **gallery.js** is added **after** the jQuery on **popular.html** page.
 
-     `<script src="scripts/cookie-banner.js"></script>`
+     `<script src="scripts/jquery-3.7.1.js"></script>`
+     `<script src="scripts/gallery.js"></script>`
 
 4. Code the interactivity for the thumbnail image gallery using these snippets:
 
     Console Messages - 
 
-        console.log("TODO: Add informative debugging message")"
+        console.log("TODO: Add informative debugging message");
 
     Listen/Respond to Events on an Element - 
 
